@@ -19,5 +19,11 @@ namespace MoshDesignPatterns
         {
             states.Add(editorState);
         }
+
+        public void Pop()
+        {
+            int lastIndex = states.Count - 1;
+            states.RemoveAt(lastIndex);
+        }
     }
 }
