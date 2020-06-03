@@ -20,10 +20,12 @@ namespace MoshDesignPatterns
             states.Add(editorState);
         }
 
-        public void Pop()
+        public EditorState Pop()
         {
             int lastIndex = states.Count - 1;
+            var lastState = states[lastIndex];
             states.RemoveAt(lastIndex);
+            return lastState;
         }
     }
 }

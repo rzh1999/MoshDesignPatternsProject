@@ -10,6 +10,9 @@ namespace MoshDesignPatterns
     {
         static void Main(string[] args)
         {
+            MementoPattern mementoPattern = new MementoPattern();
+            mementoPattern.RunMemento();
+            Console.ReadLine();
         }
     }
 }

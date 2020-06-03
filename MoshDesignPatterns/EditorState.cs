@@ -9,7 +9,7 @@ namespace MoshDesignPatterns
     public class EditorState
     {
         private string content;
-        public string Content { get => content; set => content = value; }
+        public string Content { get => content; }
        
         public EditorState(String content)
         {
