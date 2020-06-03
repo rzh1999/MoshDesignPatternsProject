@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoshDesignPatterns
 {
-    class Editor
+    public class Editor
     {
         private String content;
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoshDesignPatterns
 {
-    class EditorState
+    public class EditorState
     {
         private string content;
         public string Content { get => content; set => content = value; }

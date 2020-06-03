@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoshDesignPatterns
 {
-    class MementoPattern
+    public class MementoPattern
     {
     }
 }
